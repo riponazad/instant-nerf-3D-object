@@ -59,6 +59,12 @@ Begin by cloning this repository and all its submodules using the following comm
 $ git clone --recursive https://github.com/riponazad/instant-nerf-3D-object
 $ cd instant-nerf-3D-object
 ```
+Create a separate conda environment for the project:
+```sh
+instant-nerf-3D-object$ conda create --name instant-nerf
+instant-nerf-3D-object$ conda activate instant-nerf
+```
+
 
 Then, use CMake to build the project: (on Windows, this must be in a [developer command prompt](https://docs.microsoft.com/en-us/cpp/build/building-on-the-command-line?view=msvc-160#developer_command_prompt))
 ```sh
