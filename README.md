@@ -56,8 +56,8 @@ sudo pacman -S cuda
 
 Begin by cloning this repository and all its submodules using the following command:
 ```sh
-$ git clone --recursive https://github.com/nvlabs/instant-ngp
-$ cd instant-ngp
+$ git clone --recursive https://github.com/riponazad/instant-nerf-3D-object
+$ cd instant-nerf-3D-object
 ```
 
 Then, use CMake to build the project: (on Windows, this must be in a [developer command prompt](https://docs.microsoft.com/en-us/cpp/build/building-on-the-command-line?view=msvc-160#developer_command_prompt))
