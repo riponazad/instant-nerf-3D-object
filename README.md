@@ -61,8 +61,8 @@ $ cd instant-nerf-3D-object
 ```
 Create a separate conda environment for the project:
 ```sh
-instant-nerf-3D-object$ conda create --name instant-nerf
-instant-nerf-3D-object$ conda activate instant-nerf
+instant-nerf-3D-object$ conda create --name ngp python=3.9
+instant-nerf-3D-object$ conda activate ngp
 ```
 
 
